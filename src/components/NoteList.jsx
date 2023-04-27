@@ -12,9 +12,6 @@ import TimeAgo from './TimeAgo'
 function NoteList(props) {
   const { id, title, date, color } = props
 
-  // console.log(newValues)
-
-  // console.log(color)
   const dispatch = useDispatch()
 
 
