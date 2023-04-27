@@ -40,8 +40,6 @@ function NoteList(props) {
 
           <TimeAgo timeStamp={date} />
        
-            
-            {/* <MdEditNote size="1.5rem" className='cursor-pointer hover:text-white' onClick={() => dispatch(deleteNote({ id }))} /> */}
 
           <EditNote newNoteArea={{id, title, color}}/>
         </div>
