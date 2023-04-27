@@ -5,7 +5,7 @@ import NoteList from './NoteList'
 function NoteArea() {
     
     const notes = useSelector((state) => state.notes.getFiltered)
-//    const allNotes = notes.slice().sort((a,b)=>b.date.localeCompare(a.date))
+
     return (
         <div className='flex items-center justify-center p-2 m-1 md:p-4 md:m-4'>
 
